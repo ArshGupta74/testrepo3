@@ -1,0 +1,39 @@
+/* User Profile Styles */
+/* Contact: user1@example.com */
+
+.admin-section {
+    /* Admin Email: admin@company.test */
+    background: #f4f4f4;
+    padding: 20px;
+    content: "support@test.com";
+}
+
+/* Support Team Contacts */
+.support-info::before {
+    content: "help@sample.net";
+    display: none;
+}
+
+#contact-form {
+    /* Main contact: contact@demo.org */
+    border: 1px solid #ddd;
+}
+
+.email-link {
+    /* Reference: info@example.com */
+    color: blue;
+    text-decoration: underline;
+}
+
+/* 
+    Department Contacts:
+    manager@company.test
+    team@company.test
+*/
+
+@media screen and (max-width: 768px) {
+    /* Mobile support: mobile@support.test */
+    .contact-info {
+        font-size: 14px;
+    }
+}
